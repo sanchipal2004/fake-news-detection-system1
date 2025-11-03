@@ -1,0 +1,56 @@
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+
+.slider {
+  display: flex;
+  width: 200%;
+  animation: scroll 20s linear infinite;
+}
+
+.slide {
+  position: relative;
+  width: 548px; /* each slide width */
+}
+
+.slide img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+/* 🧾 Caption styling */
+.heading {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* 🎞️ Animation for auto-scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* 🖱️ Pause animation on hover */
+.slider-container:hover .slider {
+  animation-play-state: paused;
+}
+
