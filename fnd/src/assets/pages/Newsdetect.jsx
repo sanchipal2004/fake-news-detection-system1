@@ -33,7 +33,7 @@ finally{
     <div>
       <Navbar/>
       <div className="detectpage p-20  flex flex-col gap-10 w-full bg-red-800">
-      <div className="container flex flex-col w-full  text-center ml-40 text-white gap-5 ">
+      <div className="container flex flex-col w-full  text-center ml-38 text-white gap-5 ">
         <h1 className='text-5xl  font-serif font-bold'>Detect Fake News</h1>
         <p >Paste or type news text below to analyze its authenticity. Our tool uses advanced algorithms to identify potential misinformation.</p>
       </div>
