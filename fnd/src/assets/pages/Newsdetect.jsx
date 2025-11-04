@@ -37,7 +37,7 @@ finally{
         <h1 className='text-4xl  font-serif font-bold'>Detect Fake News</h1>
         <p >Paste or type news text below to analyze its authenticity. Our tool uses advanced algorithms to identify potential misinformation.</p>
       </div>
-      <div className="anaysis flex flex-col gap-5 items-center">
+      <div className="anaysis flex flex-col gap-2 items-center">
         <textarea  typeof='text'className=" text  w-1/2  h-40 rounded px-4 pt-4 text-start align-top border border-10 resize-none text-white"  placeholder="Paste or type the news text here..." value={newstext} maxLength={5000} onChange={(e)=>setnewstext(e.target.value)}/>
         <span className='text-white'>Character Count:{newstext.length/5000}</span>
         <button onClick={analyzenews} disabled={loading||!newstext}className='btn w-60 h-16 cursor-pointer rounded-md hover:bg-white hover:text-black bg-red-600 text-white'> {loading ? "Analyzing..." : "Generate Result"}</button>
