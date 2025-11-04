@@ -38,7 +38,7 @@ Users can simply paste any news headline or article text into the input box and 
 
 ## Clone the Repository
 
-git clone https://github.com/sanchipal2004/Fake-News-Detection-System.git
+git clone https://github.com/sanchipal2004/fake-news-detection-system1.git
 
 cd FND
 
