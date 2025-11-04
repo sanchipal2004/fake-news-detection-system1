@@ -19,7 +19,7 @@ const Result = ({score}) => {
     }
   return (
     <div>
-      <div className="resultcard translate-x-1/2 p-6 bg-red-200 shadow-lg rounded-lg  w-1/2">
+      <div className="resultcard translate-x-1/2 p-3 bg-red-200 shadow-lg rounded-lg  w-1/2">
  <h2 className="text-xl font-bold text-slate-900">Analysis Result</h2>
       <p className="mt-2">
         <strong>Status: </strong>{""}
