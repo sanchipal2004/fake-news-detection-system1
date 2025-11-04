@@ -13,8 +13,8 @@ const Header = () => {
         <img className="w-full h-full object-fill" src="copy2.png" alt="" />
 
         <div className="absolute top-24 text-center left-1/2 transform -translate-x-1/2 flex flex-col gap-5 text-white z-10">
-          <h1 className="font-serif font-bold text-5xl">The Truth Matters</h1>
-          <span className="text-xl font-thin">
+          <h1 className="font-serif font-bold text-4xl">The Truth Matters</h1>
+          <span className="text-lg font-thin">
             Check It Before You Believe It, Just One Click, Real or Fake? Let AI Decide.
           </span>
         </div>
