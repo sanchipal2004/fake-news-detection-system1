@@ -5,7 +5,9 @@ import './App.css'
 import {Routes,Route, BrowserRouter } from 'react-router-dom'
 import Home from './assets/pages/Home'
 import Newsdetect from './assets/pages/Newsdetect'
-import Login from './assets/pages/Login'
+import About from './assets/pages/About'
+import Termsofpriv from './assets/pages/Termsofpriv'
+
 
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/newsdetect' element={<Newsdetect/>}/>
-  <Route path='/login' element={<Login/>}/> 
+ <Route path='/about' element={<About/>}/>
+ <Route path='/termofservice' element={<Termsofpriv/>}/>
 </Routes>
 </BrowserRouter>
 
