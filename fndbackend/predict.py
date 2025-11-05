@@ -3,8 +3,11 @@ import json
 import joblib
 
 
-model = joblib.load("model.pkl")
-vectoriser= joblib.load("vectorizer.pkl")
+import os
+
+base_path = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(base_path, "model.pkl"))
+vectoriser = joblib.load(os.path.join(base_path, "vectorizer.pkl"))
 
 # Take text from Node.js argument
 text = sys.argv[1]
