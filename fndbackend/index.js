@@ -10,7 +10,7 @@ app.post('/api/analyze', (req, res) => {
   if(!newstext){
     return res.status(400).json({error:"text is not entered"})
   }
- const python =spawn("python",["predict.py",newstext]);
+ const python =spawn("python",["predict.py",JSON.stringify(newstext)]);
 
  let score ="";
  python.stdout.on("data",(data)=>{
