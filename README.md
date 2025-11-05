@@ -62,7 +62,11 @@ node index.js
 🔗 **Backend API:** (Deployed on Render or your preferred platform)
 
 ## Example Request:
-  "text": "Breaking news: The moon is made of cheese!"
+  "text": 1. "Breaking news: The moon is made of cheese!"
+  
+  2. washington reuters us vice president joe biden spoke with iraqi prime minister haider alabadi on wednesday to discuss military assistance requested by iraq to fight islamic state militants the white house said biden also pledged us support for iraqs efforts to stabilize its economy and said the united states would work with g7 nations and others to make sure iraq has financial resources to fight islamic state the white house said in a statement
+
+  3. The Prime Minister announced new economic reforms to boost the rural sector
 
 ## Developer
 Sanchi Pal
