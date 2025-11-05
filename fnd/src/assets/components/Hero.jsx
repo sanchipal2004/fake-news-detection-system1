@@ -8,7 +8,7 @@ const Hero = () => {
         <div className= " feature bg-red-950 text-white flex flex-col gap-5 text-center py-3">
             <h1 className='text-3xl  text-bold font-serif '> Key Features</h1>
             <span className=' text-xl font-sans text-bold'>Empowering You with the Tools to Discern Truth</span>
-            <span className='text-lg font-xs'>TruthGuard offers a suite of features designed to help you identify misinformation and stay informed.</span>
+            <span className='text-lg font-xs'>NewsGuard AI offers a suite of features designed to help you identify misinformation and stay informed.</span>
        
         <div className="card flex justify-center gap-10">
            <motion.div className="card1 w-72  rounded-md p-5  border border-10 " initial={{x:-100 ,opacity:0 ,scale:0.8}}
