@@ -50,6 +50,3 @@ const Termsofpriv = () => {
 }
 
 export default Termsofpriv
-
-
-
