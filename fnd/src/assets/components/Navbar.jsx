@@ -1,27 +1,25 @@
 import React from 'react'
 import './navbar.css'
-
 import { useNavigate } from 'react-router-dom'
+
 const Navbar = () => {
-  const navigate=useNavigate()
-  const handlehome=()=>{
-    navigate('/')
-  }
- const handleabout=()=>{
-    navigate('/about')
-  }
+  const navigate = useNavigate()
+
   return (
     <div>
-      <div className="nav flex justify-between p-5    bg-red-950">
-        <span className=' text-white text-2xl translate-x-48 font-medium  '>NewsGuard AI</span>
-        <ul className='flex text-white gap-9  -translate-x-48  text-lg font-medium cursor-pointer'>
-            <li className='' onClick={handlehome} >Home</li>
-          <li onClick={handleabout} >About</li>
-            
-            
+      <div className="nav flex items-center justify-between px-4 py-4 md:px-10 bg-red-950">
+
+        {/* Logo */}
+        <span className="text-white text-xl md:text-2xl font-medium">
+          NewsGuard AI
+        </span>
+
+        {/* Menu */}
+        <ul className="flex gap-5 md:gap-9 text-white text-base md:text-lg font-medium cursor-pointer">
+          <li onClick={() => navigate('/')}>Home</li>
+          <li onClick={() => navigate('/about')}>About</li>
         </ul>
-        
-       
+
       </div>
     </div>
   )
