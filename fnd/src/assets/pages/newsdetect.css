@@ -1,8 +1,8 @@
 
-.detectpage{
-background-color:  #351616;
-height:657px;
 
+.detectpage {
+  background-color: #351616;
+  min-height: 100vh;
 }
 .text{
    background-color: #421e1e;
