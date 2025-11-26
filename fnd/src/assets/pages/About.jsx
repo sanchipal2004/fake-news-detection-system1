@@ -8,18 +8,17 @@ const About = () => {
     <div>
       <Navbar />
 
-      {/* Container */}
+
       <div className="aboutcontainer bg-red-950 px-4 sm:px-6 md:px-10 lg:px-40 flex justify-center py-6">
         <div className="layout-content-container flex flex-col max-w-[960px] w-full">
 
-          {/* Heading */}
           <div className="flex flex-wrap justify-between gap-3 p-2 sm:p-4">
             <p className="text-white tracking-tight text-2xl sm:text-[32px] font-bold leading-tight">
               About Me
             </p>
           </div>
 
-          {/* Section: Overview */}
+          
           <h2 className="text-white text-xl sm:text-[22px] font-bold tracking-tight px-2 sm:px-4 pb-2 pt-4">
             🌐 Overview
           </h2>
@@ -29,7 +28,6 @@ const About = () => {
             fostering a more informed and responsible digital community. The Fake News Detection System is designed to analyze, evaluate, and classify news content as real or fake using Artificial Intelligence (AI) and Natural Language Processing (NLP) techniques.
           </p>
 
-          {/* Mission */}
           <h2 className="text-white text-xl sm:text-[22px] font-bold tracking-tight px-2 sm:px-4 pb-2 pt-4">
             💡 Our Mission
           </h2>
@@ -39,7 +37,7 @@ const About = () => {
             continuous improvement in my detection methods.
           </p>
 
-          {/* How It Works */}
+  
           <h2 className="text-white text-xl sm:text-[22px] font-bold tracking-tight px-2 sm:px-4 pb-2 pt-4">
             🧩 How It Works
           </h2>
@@ -49,7 +47,7 @@ const About = () => {
             to be both efficient and thorough, ensuring that users receive timely and accurate assessments.
           </p>
 
-          {/* Why Choose Us */}
+   
           <h2 className="text-white text-xl sm:text-[22px] font-bold tracking-tight px-2 sm:px-4 pb-2 pt-4">
             🌱 Why Choose Us
           </h2>
